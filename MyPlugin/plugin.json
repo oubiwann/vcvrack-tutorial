@@ -1,0 +1,16 @@
+{
+  "slug": "MyPlugin",
+  "name": "MyPlugin",
+  "version": "2.0.0",
+  "license": "CC0-1.0",
+  "brand": "TFTP",
+  "author": "Forgotten Tones",
+  "authorEmail": "duncan@forgottenton.es",
+  "authorUrl": "https://forgottenton.es",
+  "pluginUrl": "https://github.com/forgotten-tones/vcv/tree/main/modules",
+  "manualUrl": "https://github.com/forgotten-tones/vcv/tree/main/modules",
+  "sourceUrl": "https://github.com/forgotten-tones/vcv/",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": []
+}
