@@ -37,3 +37,6 @@
 # VCV Rack
 /build
 /dist
+
+# VS Code
+.vscode

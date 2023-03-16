@@ -16,7 +16,7 @@ make rebuild
 
 Note that all of the steps for setting up a VCV Rack development environment need to be followed before using this code, just as described in the tutorial.
 
-## Additional Deps
+## Additional Deps (for IDEs)
 
 In order for VS Code to load all the files, I had to install the following:
 
