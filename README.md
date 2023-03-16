@@ -1,5 +1,7 @@
 # VCV Rack Module Development
 
+[![][screenshot-thumb]][screenshot]
+
 This is the example module documented in [this tutorial](https://vcvrack.com/manual/PluginDevelopmentTutorial) (with a few minor changes).
 
 For plugin development on systems an Apple M1 chip, I've found that all I need to do to compile the plugin such that it will be loaded by my VCV Rack installation is start a bash session with this:
@@ -43,3 +45,8 @@ Then updated my C++ prefs with the following include path additions:
 "/opt/pffft",
 "/opt/speexdsp/include"
 ```
+
+[//]: ---Named-Links---
+
+[screenshot-thumb]: https://raw.githubusercontent.com/oubiwann/vcvrack-tutorial/main/res/images/screenshot.jpg
+[screenshot]: https://raw.githubusercontent.com/oubiwann/vcvrack-tutorial/main/res/images/screenshot.jpg
