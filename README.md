@@ -7,3 +7,39 @@ For plugin development on systems an Apple M1 chip, I've found that all I need t
 ```shell
 arch -x86_64 /bin/bash
 ```
+
+I've also added a convenience target for cleaning, building, and installing:
+
+```shell
+make rebuild
+```
+
+Note that all of the steps for setting up a VCV Rack development environment need to be followed before using this code, just as described in the tutorial.
+
+## Additional Deps
+
+In order for VS Code to load all the files, I had to install the following:
+
+* `brew install jansson glew`
+
+Download the following sources:
+
+* nanovg & nanosvg
+* oui-blendish
+* simde (simd-everywhere)
+* pffft (marton78)
+* speexdsp (xiph)
+
+Then updated my C++ prefs with the following include path additions:
+
+```
+"/opt/homebrew/include/",
+"/opt/vcvrack/Rack-SDK/include/",
+"/opt/nanovg/src/",
+"/opt/nanosvg/src/",
+"/opt/homebrew/Cellar/glew/2.2.0_1/include",
+"/opt/oui-blendish/",
+"/opt/simde/",
+"/opt/pffft",
+"/opt/speexdsp/include"
+```
