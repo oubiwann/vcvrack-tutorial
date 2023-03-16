@@ -16,13 +16,10 @@
         {
             "slug": "TutorialMod",
             "name": "Tutorial Mod",
-            "description": "Module for VCV Rack Module Development Tutorial",
+            "description": "Module created with the VCV Rack Module Development Tutorial",
             "tags": [
-                "tutorial",
-                "learning",
-                "sine",
-                "generator",
-                "simple"
+                "oscillator",
+                "utility"
             ]
         }
     ]
