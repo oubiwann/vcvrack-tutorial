@@ -14,12 +14,15 @@
     "changelogUrl": "",
     "modules": [
         {
-            "slug": "MyModule",
-            "name": "MyModule",
-            "description": "VCV Rack Module Development Tutorial",
+            "slug": "TutorialMod",
+            "name": "Tutorial Mod",
+            "description": "Module for VCV Rack Module Development Tutorial",
             "tags": [
                 "tutorial",
-                "learning"
+                "learning",
+                "sine",
+                "generator",
+                "simple"
             ]
         }
     ]

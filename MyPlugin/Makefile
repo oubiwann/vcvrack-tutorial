@@ -23,3 +23,6 @@ DISTRIBUTABLES += $(wildcard presets)
 include $(RACK_DIR)/plugin.mk
 
 rebuild: clean all dist install
+
+uninstall:
+	@rm -rf ~/Documents/Rack2/plugins/ForgottenTones/
